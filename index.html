@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <!-- lien vers le fichier css-->
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>Mastermind</title>
+    </head>
+    <body>
+        <header>
+            <h1><strong>MASTERMIND</strong></h1>
+            <div class="entete">
+                <nav class="lien">
+                    <!--menu de navigation-->
+                    <a href="index.html" class="acc">Accueil</a>                    
+                    <a href="Apropos.html">A propos</a>                        
+                     
+                </nav>               
+            </div>
+                       
+        </header>
+        <main>
+            <!--explication du jeu-->
+            <p>Bienvenue dans le jeu du mastermind</p>
+            <p>Les régles du jeu sont simple devinez les quattres chiffres aléatoires</p>
+            <p>C'est partis !</p>
+
+            <div class="afficherAleatoire">
+
+            </div>
+            <!--champ pour remplir avec le chiffre-->
+            <form method="get" action="">
+                <label for="chiffre">Votre chiffre</label> : 
+                <input type="number" name="chiffre" id="chiffre1" placeholder="Ex: 1 à 4" min="1" max="4">
+                <input type="number" name="chiffre" id="chiffre2" placeholder="Ex: 1 à 4" min="1" max="4">
+                <input type="number" name="chiffre" id="chiffre3" placeholder="Ex: 1 à 4" min="1" max="4">
+                <input type="number" name="chiffre" id="chiffre4" placeholder="Ex: 1 à 4" min="1" max="4">
+                <button class="monBouton">Envoyer</button> <!--bouton envoyer à gérer avec javascript-->
+            </form>
+           
+        </main>
+    </body>
+    
+</html>

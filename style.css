@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(250, 249, 249, 0.5);
+}
+
+h1 {
+    color: rgb(77, 31, 9);
+    text-align: center;
+
+}
+
+.entete {
+    background: linear-gradient(90deg, #8360c3, #2ebf91); /* fond dégradé */
+    gap: 100px; /* Espace entre les liens */
+    border-radius: 5px;
+    font-size: 25px; /* Agrandit la taille du texte */
+    text-align: center;
+}
+
+
+a {
+    color:blue;
+    margin: 5px;   
+}
