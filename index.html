@@ -8,37 +8,36 @@
         <title>Mastermind</title>
     </head>
     <body>
-        <header>
-            <h1><strong>MASTERMIND</strong></h1>
+        <header>      
             <div class="entete">
-                <nav class="lien">
+                <h1><strong>MASTERMIND</strong></h1>
+                <nav>
                     <!--menu de navigation-->
                     <a href="index.html" class="acc">Accueil</a>                    
-                    <a href="Apropos.html">A propos</a>                        
-                     
+                    <a href="Apropos.html">A propos</a>                                          
                 </nav>               
-            </div>
-                       
+            </div>         
         </header>
+
         <main>
-            <!--explication du jeu-->
-            <p>Bienvenue dans le jeu du mastermind</p>
-            <p>Les régles du jeu sont simple devinez les quattres chiffres aléatoires</p>
-            <p>C'est partis !</p>
-
-            <div class="afficherAleatoire">
-
+            
+            <div class="text">
+                <img src="img/Mastermind.jpg" class="img">
+                <!--explication du jeu-->
+                <p>Bienvenue dans le jeu du mastermind</p>
+                <p>Les régles du jeu sont simple devinez les quatres couleur dans l'odre</p>
+                <p>C'est partis !</p>
             </div>
+            
+
             <!--champ pour remplir avec le chiffre-->
-            <form method="get" action="">
-                <label for="chiffre">Votre chiffre</label> : 
-                <input type="number" name="chiffre" id="chiffre1" placeholder="Ex: 1 à 4" min="1" max="4">
-                <input type="number" name="chiffre" id="chiffre2" placeholder="Ex: 1 à 4" min="1" max="4">
-                <input type="number" name="chiffre" id="chiffre3" placeholder="Ex: 1 à 4" min="1" max="4">
-                <input type="number" name="chiffre" id="chiffre4" placeholder="Ex: 1 à 4" min="1" max="4">
-                <button class="monBouton">Envoyer</button> <!--bouton envoyer à gérer avec javascript-->
-            </form>
-           
+            <div class="button">
+                <button class="rouge">ROUGE</button>
+                <button class="jaune">JAUNE</button>
+                <button class="bleue">BLEUE</button>
+                <button class="vert">VERT</button>
+            </div>
+                          
         </main>
     </body>
     
